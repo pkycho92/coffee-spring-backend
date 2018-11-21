@@ -1,0 +1,24 @@
+package coffee;
+
+import javax.persistence.*;
+import lombok.*;
+import lombok.experimental.Accessors;
+
+import javax.validation.constraints.*;
+
+@Data
+@Accessors
+@NoArgsConstructor(access=AccessLevel.PUBLIC, force=true)
+@RequiredArgsConstructor
+@Entity
+public class MenuItem {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private final Long id;
+	@NotEmpty
+	private final String name;
+	@NotEmpty
+	private final String description;
+	private final byte[] image;
+}

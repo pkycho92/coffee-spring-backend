@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="-720" key="DIALOG_X_ORIGIN"/>
+		<item value="-561" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="657" key="dialogHeight"/>
+		<item value="1050" key="dialogWidth"/>
+		<list key="textEntries">
+			<item value="1"/>
+		</list>
+		<list key="orderedElements">
+			<item value="org.springframework.ide.eclipse.boot.dash.views.BootDashView"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
+		</list>
+		<list key="textArray">
+			<item value="das"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ImportExportAction">
+	</section>
+</section>

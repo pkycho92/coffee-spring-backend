@@ -1,0 +1,2112 @@
+!SESSION 2018-11-17 15:54:10.197 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+
+This is a continuation of log file /Users/petercho/Desktop/Spring Projects/.metadata/.bak_0.log
+Created Time: 2018-11-17 16:07:55.807
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-17 16:07:55.807
+!MESSAGE Launch configuration CoffeeApplicationTests references non-existing project coffee.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration CoffeeApplicationTests references non-existing project coffee.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-17 16:07:55.808
+!MESSAGE Launch configuration CoffeeApplicationTests references non-existing project coffee.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-17 16:07:55.811
+!MESSAGE Launch configuration CoffeeApplicationTests references non-existing project coffee.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration CoffeeApplicationTests references non-existing project coffee.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-17 16:07:55.811
+!MESSAGE Launch configuration CoffeeApplicationTests references non-existing project coffee.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-17 16:07:55.813
+!MESSAGE Launch configuration CoffeeApplicationTests (1) references non-existing project coffee.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration CoffeeApplicationTests (1) references non-existing project coffee.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-17 16:07:55.813
+!MESSAGE Launch configuration CoffeeApplicationTests (1) references non-existing project coffee.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-17 16:07:55.814
+!MESSAGE Launch configuration CoffeeApplicationTests (1) references non-existing project coffee.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration CoffeeApplicationTests (1) references non-existing project coffee.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-17 16:07:55.814
+!MESSAGE Launch configuration CoffeeApplicationTests (1) references non-existing project coffee.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-17 16:07:55.818
+!MESSAGE Launch configuration CoffeeApplicationTests (1) references non-existing project coffee.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration CoffeeApplicationTests (1) references non-existing project coffee.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-17 16:07:55.818
+!MESSAGE Launch configuration CoffeeApplicationTests (1) references non-existing project coffee.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:47.560
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.775
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zmqwHBPJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.776
+!MESSAGE subscribing to classpath changes: sts4.classpath.zmqwHBPJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.777
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.777
+!MESSAGE subsribers = [sts4.classpath.zmqwHBPJ]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.778
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.779
+!MESSAGE project coffee ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.780
+!MESSAGE project taco-cloud ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.780
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.780
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.781
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.781
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zmqwHBPJ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.784
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.784
+!MESSAGE executing callback sts4.classpath.zmqwHBPJ coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.826
+!MESSAGE executing callback sts4.classpath.zmqwHBPJ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.827
+!MESSAGE Preparing classpath changed notification taco-cloud
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.827
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.828
+!MESSAGE classpath=74 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.828
+!MESSAGE executing callback sts4.classpath.zmqwHBPJ taco-cloud false 74
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:41:54.840
+!MESSAGE executing callback sts4.classpath.zmqwHBPJ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:42:05.921
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zmqwHBPJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:42:05.922
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zmqwHBPJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:42:05.922
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:42:05.922
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zmqwHBPJ => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-17 18:49:12.968
+!MESSAGE Could not download sources for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2018-11-17 18:49:12.969
+!MESSAGE Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2018-11-17 18:49:12.969
+!MESSAGE Missing antlr:antlr:jar:sources:2.7.7
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-17 18:49:22.339
+!MESSAGE Could not download javadoc for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2018-11-17 18:49:22.339
+!MESSAGE Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2018-11-17 18:49:22.339
+!MESSAGE Missing antlr:antlr:jar:javadoc:2.7.7
+!SESSION 2018-11-17 18:50:20.021 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-11-17 18:50:24.773
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-11-17 18:50:25.873
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-17 18:50:25.873
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31f9f9b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7730da00,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2018-11-17 18:50:39.205
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:44.942
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.947
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WGeAiGHO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.948
+!MESSAGE subscribing to classpath changes: sts4.classpath.WGeAiGHO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.948
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.949
+!MESSAGE subsribers = [sts4.classpath.WGeAiGHO]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.949
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.951
+!MESSAGE project coffee ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.951
+!MESSAGE project taco-cloud ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.951
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.951
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.952
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.952
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WGeAiGHO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.954
+!MESSAGE classpath=44 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:51.954
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 44
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:52.153
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:52.154
+!MESSAGE Preparing classpath changed notification taco-cloud
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:52.154
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:52.156
+!MESSAGE classpath=74 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:52.156
+!MESSAGE executing callback sts4.classpath.WGeAiGHO taco-cloud false 74
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:51:52.657
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:52:15.626
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:52:15.627
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:52:15.629
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:52:15.630
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 18:52:15.640
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:01:59.273
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:01:59.273
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:01:59.276
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:01:59.276
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:01:59.282
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:02:01.105
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:02:01.105
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:02:01.107
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:02:01.108
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:02:01.113
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:02:20.061
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:02:20.061
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:02:20.064
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:02:20.064
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:02:20.069
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:26.496
+!MESSAGE Preparing classpath changed notification taco-cloud
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:26.496
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:26.497
+!MESSAGE classpath=101 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:26.498
+!MESSAGE executing callback sts4.classpath.WGeAiGHO taco-cloud false 101
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:26.504
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.028
+!MESSAGE Preparing classpath changed notification tester
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.028
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.029
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.029
+!MESSAGE executing callback sts4.classpath.WGeAiGHO tester false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.879
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.880
+!MESSAGE Preparing classpath changed notification tester
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.881
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.883
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.883
+!MESSAGE executing callback sts4.classpath.WGeAiGHO tester false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.888
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.888
+!MESSAGE Preparing classpath changed notification tester
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.889
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.891
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.891
+!MESSAGE executing callback sts4.classpath.WGeAiGHO tester false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.896
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.897
+!MESSAGE Preparing classpath changed notification tester
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.897
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.899
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.899
+!MESSAGE executing callback sts4.classpath.WGeAiGHO tester false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.903
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.903
+!MESSAGE Preparing classpath changed notification tester
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.904
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.906
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.906
+!MESSAGE executing callback sts4.classpath.WGeAiGHO tester false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.911
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.911
+!MESSAGE Preparing classpath changed notification tester
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.912
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.914
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.915
+!MESSAGE executing callback sts4.classpath.WGeAiGHO tester false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:08:56.919
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:10:03.242
+!MESSAGE Preparing classpath changed notification tester
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:10:03.243
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:10:03.245
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:10:03.245
+!MESSAGE executing callback sts4.classpath.WGeAiGHO tester false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:10:03.249
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:10:34.977
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:10:34.978
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:10:34.980
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:10:34.980
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-17 19:10:34.984
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 0 2018-11-17 19:27:11.136
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:67)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4905)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:215)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:204)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:199)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:138)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:81)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:42)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:349)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:113)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:194)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:205)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:115)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:474)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4292)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1516)
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:808)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6066)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:80)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:270)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4193)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3726)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.tm4e.ui.internal.menus.ThemeContribution.getContributionItems(ThemeContribution.java:58)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:83)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:57)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:150)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:731)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:813)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:672)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1222)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeUIElementTopicAllRenderedVisibility(MenuManagerRenderer.java:203)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 61 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:55:43.550
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:55:43.550
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:55:43.552
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:55:43.552
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:55:43.556
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:55:46.035
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:55:46.035
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:55:46.037
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:55:46.037
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:55:46.040
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:58:15.271
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:58:15.272
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:58:15.273
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:58:15.273
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 13:58:15.276
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:03:18.195
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:03:18.195
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:03:18.197
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:03:18.197
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:03:18.200
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:09:53.448
+!MESSAGE Preparing classpath changed notification tester
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:09:53.449
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:09:53.449
+!MESSAGE executing callback sts4.classpath.WGeAiGHO tester true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:09:53.717
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY Activator 4 0 2018-11-18 14:09:53.913
+!MESSAGE DebugException: Launch configuration tester - TesterApplication at file:/Users/petercho/Desktop/Spring%20Projects/.metadata/.plugins/org.eclipse.debug.core/.launches/tester%20-%20TesterApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration tester - TesterApplication at file:/Users/petercho/Desktop/Spring%20Projects/.metadata/.plugins/org.eclipse.debug.core/.launches/tester%20-%20TesterApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:441)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getAttribute(DevtoolsUtil.java:232)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getElement(DevtoolsUtil.java:197)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getElement(DevtoolsUtil.java:212)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil$1.handleStateChange(DevtoolsUtil.java:259)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil$1.processTerminated(DevtoolsUtil.java:252)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:111)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:77)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1137)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1171)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:444)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2018-11-18 14:09:53.913
+!MESSAGE Launch configuration tester - TesterApplication at file:/Users/petercho/Desktop/Spring%20Projects/.metadata/.plugins/org.eclipse.debug.core/.launches/tester%20-%20TesterApplication.launch does not exist.
+
+!ENTRY Activator 4 0 2018-11-18 14:09:53.913
+!MESSAGE DebugException: Launch configuration tester - TesterApplication at file:/Users/petercho/Desktop/Spring%20Projects/.metadata/.plugins/org.eclipse.debug.core/.launches/tester%20-%20TesterApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration tester - TesterApplication at file:/Users/petercho/Desktop/Spring%20Projects/.metadata/.plugins/org.eclipse.debug.core/.launches/tester%20-%20TesterApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:441)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getAttribute(DevtoolsUtil.java:232)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getElement(DevtoolsUtil.java:198)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getElement(DevtoolsUtil.java:212)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil$1.handleStateChange(DevtoolsUtil.java:259)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil$1.processTerminated(DevtoolsUtil.java:252)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:111)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:77)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1137)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1171)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:444)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2018-11-18 14:09:53.914
+!MESSAGE Launch configuration tester - TesterApplication at file:/Users/petercho/Desktop/Spring%20Projects/.metadata/.plugins/org.eclipse.debug.core/.launches/tester%20-%20TesterApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-18 14:09:54.465
+!MESSAGE Launch configuration TesterApplicationTests references non-existing project tester.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TesterApplicationTests references non-existing project tester.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-18 14:09:54.465
+!MESSAGE Launch configuration TesterApplicationTests references non-existing project tester.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-18 14:09:54.467
+!MESSAGE Launch configuration TesterApplicationTests references non-existing project tester.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TesterApplicationTests references non-existing project tester.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-18 14:09:54.467
+!MESSAGE Launch configuration TesterApplicationTests references non-existing project tester.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-18 14:09:54.470
+!MESSAGE Launch configuration TesterApplicationTests references non-existing project tester.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TesterApplicationTests references non-existing project tester.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-18 14:09:54.470
+!MESSAGE Launch configuration TesterApplicationTests references non-existing project tester.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.065
+!MESSAGE Preparing classpath changed notification coffeeTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.065
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.066
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.066
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffeeTest false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.917
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.917
+!MESSAGE Preparing classpath changed notification coffeeTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.917
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.919
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.920
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffeeTest false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.923
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.923
+!MESSAGE Preparing classpath changed notification coffeeTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.924
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.926
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.926
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffeeTest false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.929
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.929
+!MESSAGE Preparing classpath changed notification coffeeTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.929
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.931
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.932
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffeeTest false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.946
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.947
+!MESSAGE Preparing classpath changed notification coffeeTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.947
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.949
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.950
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffeeTest false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.953
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.953
+!MESSAGE Preparing classpath changed notification coffeeTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.954
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.955
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.955
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffeeTest false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:11:26.959
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:13:54.156
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:13:54.156
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:13:54.157
+!MESSAGE classpath=101 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:13:54.158
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 101
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:13:54.161
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:13:57.258
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:13:57.258
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:13:57.259
+!MESSAGE classpath=101 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:13:57.260
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 101
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:13:57.262
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:15:32.991
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:15:32.991
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:15:32.993
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:15:32.993
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 14:15:32.995
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:03:33.164
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:03:33.165
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:03:33.167
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:03:33.167
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:03:33.170
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:05:58.590
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:05:58.591
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:05:58.592
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:05:58.592
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:05:58.595
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:08:31.823
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:08:31.823
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:08:31.824
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:08:31.825
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:08:31.827
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:38:51.937
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:38:51.938
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:38:51.940
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:38:51.940
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:38:51.943
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:38:53.429
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:38:53.429
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:38:53.431
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:38:53.431
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:38:53.434
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:40:27.798
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:40:27.798
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:40:27.800
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:40:27.800
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:40:27.802
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:40:49.120
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:40:49.121
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:40:49.122
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:40:49.122
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:40:49.125
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:41:03.856
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:41:03.857
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:41:03.858
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:41:03.858
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:41:03.861
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:41:20.707
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:41:20.707
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:41:20.709
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:41:20.709
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:41:20.711
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:43:36.788
+!MESSAGE Preparing classpath changed notification coffeeTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:43:36.788
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:43:36.788
+!MESSAGE executing callback sts4.classpath.WGeAiGHO coffeeTest true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 16:43:36.790
+!MESSAGE executing callback sts4.classpath.WGeAiGHO SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-18 16:43:37.793
+!MESSAGE Launch configuration CoffeeTestApplicationTests references non-existing project coffeeTest.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration CoffeeTestApplicationTests references non-existing project coffeeTest.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-18 16:43:37.794
+!MESSAGE Launch configuration CoffeeTestApplicationTests references non-existing project coffeeTest.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-18 16:43:37.795
+!MESSAGE Launch configuration CoffeeTestApplicationTests references non-existing project coffeeTest.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration CoffeeTestApplicationTests references non-existing project coffeeTest.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-18 16:43:37.795
+!MESSAGE Launch configuration CoffeeTestApplicationTests references non-existing project coffeeTest.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-18 16:43:37.798
+!MESSAGE Launch configuration CoffeeTestApplicationTests references non-existing project coffeeTest.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration CoffeeTestApplicationTests references non-existing project coffeeTest.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-18 16:43:37.799
+!MESSAGE Launch configuration CoffeeTestApplicationTests references non-existing project coffeeTest.
+!SESSION 2018-11-18 17:53:18.637 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-11-18 17:53:22.831
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2018-11-18 17:53:24.141
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-11-18 17:53:25.548
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-18 17:53:25.548
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@254d8ef6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a9e7b4d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:18.749
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:25.769
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.mIOhBnzd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:25.770
+!MESSAGE subscribing to classpath changes: sts4.classpath.mIOhBnzd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:25.770
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:25.771
+!MESSAGE subsribers = [sts4.classpath.mIOhBnzd]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:25.771
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.174
+!MESSAGE project coffee ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.175
+!MESSAGE project taco-cloud ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.175
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.175
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.175
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.176
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.mIOhBnzd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.179
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.179
+!MESSAGE executing callback sts4.classpath.mIOhBnzd coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.224
+!MESSAGE executing callback sts4.classpath.mIOhBnzd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.224
+!MESSAGE Preparing classpath changed notification taco-cloud
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.224
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.227
+!MESSAGE classpath=101 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.228
+!MESSAGE executing callback sts4.classpath.mIOhBnzd taco-cloud false 101
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:57:26.246
+!MESSAGE executing callback sts4.classpath.mIOhBnzd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:59:56.219
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mIOhBnzd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:59:56.220
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.mIOhBnzd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:59:56.220
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-18 17:59:56.220
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mIOhBnzd => OK
+
+!ENTRY org.eclipse.ui 2 2 2018-11-18 18:01:44.885
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+!SESSION 2018-11-19 15:20:15.007 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-11-19 15:20:20.283
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-11-19 15:20:21.529
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-19 15:20:21.529
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45c28c49,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c6fc278,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2018-11-19 15:21:47.153
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-19 15:22:02.909
+!MESSAGE Launch configuration HomeControllerTest references non-existing project taco-cloud.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration HomeControllerTest references non-existing project taco-cloud.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-19 15:22:02.909
+!MESSAGE Launch configuration HomeControllerTest references non-existing project taco-cloud.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-19 15:22:02.912
+!MESSAGE Launch configuration HomeControllerTest references non-existing project taco-cloud.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration HomeControllerTest references non-existing project taco-cloud.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-19 15:22:02.912
+!MESSAGE Launch configuration HomeControllerTest references non-existing project taco-cloud.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-19 15:22:02.916
+!MESSAGE Launch configuration HomeControllerTest references non-existing project taco-cloud.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration HomeControllerTest references non-existing project taco-cloud.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-19 15:22:02.916
+!MESSAGE Launch configuration HomeControllerTest references non-existing project taco-cloud.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-19 15:22:02.917
+!MESSAGE Launch configuration DesignTacoControllerTest references non-existing project taco-cloud.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration DesignTacoControllerTest references non-existing project taco-cloud.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-19 15:22:02.918
+!MESSAGE Launch configuration DesignTacoControllerTest references non-existing project taco-cloud.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-19 15:22:02.919
+!MESSAGE Launch configuration DesignTacoControllerTest references non-existing project taco-cloud.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration DesignTacoControllerTest references non-existing project taco-cloud.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-19 15:22:02.919
+!MESSAGE Launch configuration DesignTacoControllerTest references non-existing project taco-cloud.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-19 15:22:02.923
+!MESSAGE Launch configuration DesignTacoControllerTest references non-existing project taco-cloud.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration DesignTacoControllerTest references non-existing project taco-cloud.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-19 15:22:02.923
+!MESSAGE Launch configuration DesignTacoControllerTest references non-existing project taco-cloud.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-19 15:22:02.924
+!MESSAGE Launch configuration tacos references non-existing project taco-cloud.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration tacos references non-existing project taco-cloud.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-19 15:22:02.924
+!MESSAGE Launch configuration tacos references non-existing project taco-cloud.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-19 15:22:02.926
+!MESSAGE Launch configuration tacos references non-existing project taco-cloud.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration tacos references non-existing project taco-cloud.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-19 15:22:02.926
+!MESSAGE Launch configuration tacos references non-existing project taco-cloud.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-19 15:22:02.929
+!MESSAGE Launch configuration tacos references non-existing project taco-cloud.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration tacos references non-existing project taco-cloud.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-19 15:22:02.930
+!MESSAGE Launch configuration tacos references non-existing project taco-cloud.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-19 15:22:02.931
+!MESSAGE Launch configuration TacoCloudApplicationTests references non-existing project taco-cloud.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TacoCloudApplicationTests references non-existing project taco-cloud.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-19 15:22:02.931
+!MESSAGE Launch configuration TacoCloudApplicationTests references non-existing project taco-cloud.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-19 15:22:02.933
+!MESSAGE Launch configuration TacoCloudApplicationTests references non-existing project taco-cloud.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TacoCloudApplicationTests references non-existing project taco-cloud.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-19 15:22:02.933
+!MESSAGE Launch configuration TacoCloudApplicationTests references non-existing project taco-cloud.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-11-19 15:22:02.936
+!MESSAGE Launch configuration TacoCloudApplicationTests references non-existing project taco-cloud.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TacoCloudApplicationTests references non-existing project taco-cloud.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2018-11-19 15:22:02.936
+!MESSAGE Launch configuration TacoCloudApplicationTests references non-existing project taco-cloud.
+!SESSION 2018-11-19 15:28:44.600 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-11-19 15:28:49.000
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2018-11-19 15:28:50.370
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-11-19 15:28:51.782
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-19 15:28:51.782
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7fa8fff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4423692a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2018-11-19 15:36:23.613 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-11-19 15:36:48.843
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2018-11-19 15:36:49.996
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-11-19 15:36:51.134
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-19 15:36:51.134
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76219fe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5eff5e4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2018-11-19 15:40:30.238
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+!SESSION 2018-11-19 15:40:34.106 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-11-19 15:40:39.003
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-11-19 15:40:40.059
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-19 15:40:40.060
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@448fa659,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45c28c49,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:45.137
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.516
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BUJAwHVe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.517
+!MESSAGE subscribing to classpath changes: sts4.classpath.BUJAwHVe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.518
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.519
+!MESSAGE subsribers = [sts4.classpath.BUJAwHVe]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.519
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.521
+!MESSAGE project coffee ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.522
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.522
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.523
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BUJAwHVe => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.523
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.527
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.528
+!MESSAGE executing callback sts4.classpath.BUJAwHVe coffee false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 15:41:52.849
+!MESSAGE executing callback sts4.classpath.BUJAwHVe SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2018-11-19 15:47:56.488
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 20:39:06.461
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 20:39:06.462
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 20:39:06.465
+!MESSAGE classpath=90 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 20:39:06.465
+!MESSAGE executing callback sts4.classpath.BUJAwHVe coffee false 90
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 20:39:06.473
+!MESSAGE executing callback sts4.classpath.BUJAwHVe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 20:39:07.802
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 20:39:07.803
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 20:39:07.805
+!MESSAGE classpath=90 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 20:39:07.805
+!MESSAGE executing callback sts4.classpath.BUJAwHVe coffee false 90
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 20:39:07.858
+!MESSAGE executing callback sts4.classpath.BUJAwHVe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:32:57.557
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BUJAwHVe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:32:57.558
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.BUJAwHVe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:32:57.558
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:32:57.558
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BUJAwHVe => OK
+!SESSION 2018-11-19 21:33:56.981 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-11-19 21:34:02.726
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-11-19 21:34:03.964
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-19 21:34:03.964
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c6fc278,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23ee92df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:06.083
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:13.664
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EfvDNdBg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:13.665
+!MESSAGE subscribing to classpath changes: sts4.classpath.EfvDNdBg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:13.666
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:13.667
+!MESSAGE subsribers = [sts4.classpath.EfvDNdBg]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:13.668
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:14.250
+!MESSAGE project coffee ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:14.251
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:14.252
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:14.252
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EfvDNdBg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:14.252
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:14.260
+!MESSAGE classpath=90 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:14.261
+!MESSAGE executing callback sts4.classpath.EfvDNdBg coffee false 90
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:34:14.326
+!MESSAGE executing callback sts4.classpath.EfvDNdBg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:36:43.215
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EfvDNdBg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:36:43.215
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.EfvDNdBg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:36:43.216
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 21:36:43.216
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EfvDNdBg => OK
+
+!ENTRY org.eclipse.ui 2 2 2018-11-19 21:36:43.480
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+!SESSION 2018-11-19 22:28:05.189 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-11-19 22:28:09.831
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-11-19 22:28:10.882
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-19 22:28:10.882
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b7c0f39,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@25b402ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:13.910
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.247
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SxJHHmju
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.247
+!MESSAGE subscribing to classpath changes: sts4.classpath.SxJHHmju
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.248
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.249
+!MESSAGE subsribers = [sts4.classpath.SxJHHmju]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.249
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.254
+!MESSAGE project coffee ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.255
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.255
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.255
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SxJHHmju => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.256
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.260
+!MESSAGE classpath=90 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.260
+!MESSAGE executing callback sts4.classpath.SxJHHmju coffee false 90
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-19 22:28:21.464
+!MESSAGE executing callback sts4.classpath.SxJHHmju SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2018-11-19 23:07:13.578
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-20 15:16:13.542
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SxJHHmju
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-20 15:16:13.544
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SxJHHmju
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-20 15:16:13.544
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-20 15:16:13.544
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SxJHHmju => OK
