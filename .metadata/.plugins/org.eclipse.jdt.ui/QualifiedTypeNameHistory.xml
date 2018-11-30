@@ -25,4 +25,5 @@
     <fullyQualifiedTypeName name="org.springframework.dao.EmptyResultDataAccessException"/>
     <fullyQualifiedTypeName name="org.springframework.transaction.annotation.EnableTransactionManagement"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.CorsRegistry"/>
 </qualifiedTypeNameHistroy>

@@ -6,16 +6,18 @@ import javax.validation.constraints.*;
 
 @Data
 @NoArgsConstructor(access=AccessLevel.PUBLIC, force=true)
-@RequiredArgsConstructor
 @Entity
 public class About {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private final Long id;
+	private Long id;
+	@OrderBy
+	private Integer position;
 	@NotEmpty
-	private final String name;
+	private String name;
 	@NotEmpty
-	private final String description;
-	private final byte[] image;
+	private String description;
+	@Lob
+	private String image;
 }

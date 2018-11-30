@@ -1,0 +1,9 @@
+package coffee.data;
+
+import java.util.List;
+
+import coffee.*;
+
+public interface AboutRepositoryCustom {
+	List<About> getAboutByPositionAsc();
+}

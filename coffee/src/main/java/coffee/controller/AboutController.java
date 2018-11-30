@@ -28,7 +28,7 @@ public class AboutController {
 	
 	@GetMapping
 	public Iterable<About> getAbouts() {
-		return aboutRepo.findAll();
+		return aboutRepo.findAllByOrderByPosition();
 	}
 	
 	@GetMapping("/{aboutId}")
@@ -46,14 +46,19 @@ public class AboutController {
 		return aboutRepo.save(about);
 	}
 	
-	@PutMapping("/{aboutId}")
-	public About putAbout(@RequestBody About about) {
+	@PatchMapping("/{aboutId}")
+	public About patchAbout(@PathVariable("aboutId") Long aboutId, @RequestBody About patch) {
+		
+		About about = aboutRepo.findById(aboutId).get();
+		if (patch.getPosition() != null) {
+			about.setPosition(patch.getPosition());
+		}
 		return aboutRepo.save(about);
 	}
 	
-	@DeleteMapping("/{aboutId")
+	@DeleteMapping("/{aboutId}")
 	@ResponseStatus(code = HttpStatus.NO_CONTENT)
-	public void deleteEvent (@PathVariable("aboutId") Long aboutId) {
+	public @ResponseBody void deleteEvent (@PathVariable("aboutId") Long aboutId) {
 		try {
 			aboutRepo.deleteById(aboutId);
 		}catch (EmptyResultDataAccessException e) {
