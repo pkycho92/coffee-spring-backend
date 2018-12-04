@@ -1,6 +1,7 @@
 package coffee.controller;
 
 import coffee.*;
+import coffee.MenuItem.Type;
 import coffee.data.MenuItemRepository;
 
 import java.util.Optional;
@@ -25,9 +26,9 @@ public class MenuItemController {
 		this.menuItemRepo = menuItemRepo;
 	}
 	
-	@GetMapping
-	public Iterable<MenuItem> getMenuItems() {
-		return menuItemRepo.findAll();
+	@GetMapping("types/{menuItemType}")
+	public Iterable<MenuItem> getMenuItems(@PathVariable("menuItemType") String type) {
+		return menuItemRepo.findAllByTypeOrderByPosition(Type.valueOf(type));
 	}
 	
 	@GetMapping("/{menuItemId}")
@@ -45,8 +46,13 @@ public class MenuItemController {
 		return menuItemRepo.save(menuItem);
 	}
 	
-	@PutMapping("/{menuMenuId}")
-	public MenuItem putAbout(@RequestBody MenuItem menuItem) {
+	@PatchMapping("/{menuItemId}")
+	public MenuItem patchMenuItem(@PathVariable("menuItemId") Long menuItemId, @RequestBody MenuItem patch) {
+		
+		MenuItem menuItem = menuItemRepo.findById(menuItemId).get();
+		if (patch.getPosition() != null) {
+			menuItem.setPosition(patch.getPosition());
+		}
 		return menuItemRepo.save(menuItem);
 	}
 	

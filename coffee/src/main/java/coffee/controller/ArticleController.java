@@ -27,7 +27,7 @@ public class ArticleController {
 
 	@GetMapping
 	public Iterable<Article> getArticles() {
-		return articleRepo.findAll();
+		return articleRepo.findAllByOrderByPosition();
 	}
 
 	@GetMapping("/{articleId}")
@@ -45,9 +45,14 @@ public class ArticleController {
 		return articleRepo.save(Article);
 	}
 
-	@PutMapping("/{articleId}")
-	public Article putArticle(@RequestBody Article Article) {
-		return articleRepo.save(Article);
+	@PatchMapping("/{articleId}")
+	public Article patchArticle(@PathVariable("articleId") Long articleId, @RequestBody Article patch) {
+		
+		Article article = articleRepo.findById(articleId).get();
+		if (patch.getPosition() != null) {
+			article.setPosition(patch.getPosition());
+		}
+		return articleRepo.save(article);
 	}
 
 	@DeleteMapping("/{articleId}")
