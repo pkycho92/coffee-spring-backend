@@ -1,0 +1,5 @@
+package coffee.web;
+
+public class WebConfig {
+
+}
