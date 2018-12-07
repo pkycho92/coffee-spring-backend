@@ -82,7 +82,7 @@
                 articlesHtml += "<div id='article" + articlesJSON[i].id + "' class='article'>";
                 articlesHtml += "<img src='" + articlesJSON[i].image + "' class='articleImage' />";
                 articlesHtml += "<div class='articleName'>" + articlesJSON[i].name + "</div>";
-                articlesHtml += "<img class='dividerImage' src='resources/divider.png' />";
+                articlesHtml += "<img class='dividerImage' src='../resources/divider.png' />";
                 articlesHtml += "<div class='articleDesc'>" + articlesJSON[i].description + "</div>";
                 articlesHtml += "<button id='article" + articlesJSON[i].id + "' class='delete'>Delete</button>";
                 articlesHtml += "</div>";

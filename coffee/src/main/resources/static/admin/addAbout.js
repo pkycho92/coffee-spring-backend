@@ -82,7 +82,7 @@
                 aboutsHtml += "<div id='about" + aboutsJSON[i].id + "' class='about'>";
                 aboutsHtml += "<img src='" + aboutsJSON[i].image + "' class='aboutImage' />";
                 aboutsHtml += "<div class='aboutName'>" + aboutsJSON[i].name + "</div>";
-                aboutsHtml += "<img class='dividerImage' src='resources/divider.png' />";
+                aboutsHtml += "<img class='dividerImage' src='../resources/divider.png' />";
                 aboutsHtml += "<div class='aboutDesc'>" + aboutsJSON[i].description + "</div>";
                 aboutsHtml += "<button id='about" + aboutsJSON[i].id + "' class='delete'>Delete</button>";
                 aboutsHtml += "</div>";
@@ -162,7 +162,6 @@
                 firstObj.position = position;
                 let secondObj = {};
                 secondObj.position = first;
-                console.log("f", first, "s", position);
                 let xhr = new XMLHttpRequest();
                 xhr.onload = function () {
                     let xhr2 = new XMLHttpRequest();

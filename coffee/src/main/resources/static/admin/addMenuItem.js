@@ -1,7 +1,7 @@
 (function () {
     let previewName = document.getElementById("previewName");
     let previewType = document.getElementById("previewType");
-    let previewImage = document.getElementById("previewImage");
+    let previewImage = document.getElementById("previewImageMI");
     let previewDesc = document.getElementById("previewDesc");
     let addName = document.getElementById("addName");
     let addType = document.getElementById("addType");
@@ -124,7 +124,7 @@
                 menuItemsHtml += "<div id='menuItem" + menuItemsJSON[i].id + "' class='menuItem'>";
                 menuItemsHtml += "<img src='" + menuItemsJSON[i].image + "' class='menuItemImage' />";
                 menuItemsHtml += "<div class='menuItemName'>" + menuItemsJSON[i].name + "</div>";
-                menuItemsHtml += "<img class='dividerImage' src='resources/divider.png' />";
+                menuItemsHtml += "<img class='dividerImage' src='../resources/divider.png' />";
                 menuItemsHtml += "<div class='menuItemDesc'>" + menuItemsJSON[i].description + "</div>";
                 menuItemsHtml += "<button id='menuItem" + menuItemsJSON[i].id + "' class='delete'>Delete</button>";
                 menuItemsHtml += "</div>";

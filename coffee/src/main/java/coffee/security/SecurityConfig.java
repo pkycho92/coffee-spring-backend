@@ -18,8 +18,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-		http.authorizeRequests().antMatchers("/admin/**").hasRole("USER").antMatchers("/", "/**").permitAll()
-		.and().formLogin().loginPage("/regular/login.html").permitAll().defaultSuccessUrl("/")
+		http.authorizeRequests().antMatchers("/admin", "/admin/**").hasRole("USER").antMatchers("/", "/**").permitAll()
+		.and().formLogin().loginPage("/login.html").defaultSuccessUrl("/admin/adminIndex.html",true)
 		.and().csrf().disable().logout();
 				
 	}

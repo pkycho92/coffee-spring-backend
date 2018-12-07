@@ -1,5 +1,0 @@
-package coffee.security;
-
-public class SecurityConfig {
-
-}
