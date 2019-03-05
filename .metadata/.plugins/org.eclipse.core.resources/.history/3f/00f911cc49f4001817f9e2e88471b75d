@@ -1,5 +1,0 @@
-package coffee.data;
-
-public interface AboutRepositoryCustom {
-
-}
