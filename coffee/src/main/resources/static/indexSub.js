@@ -57,6 +57,7 @@
         let articleDiv = image.parentNode;
         currentPos = articleDiv.dataset.position.slice(7);
         let nextPos = Number(currentPos) + 1;
+
         if (nextPos == articles.childNodes.length) {
             nextPos = 0;
         }
@@ -91,7 +92,7 @@
                 getNext(null, articles.childNodes[0].getElementsByClassName("storeImage")[0]);
             }, 10000);
         };
-        xhr.open("GET", "http://localhost:8080/articles");
+        xhr.open("GET", "/articles");
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send();
     }());

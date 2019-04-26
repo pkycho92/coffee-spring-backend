@@ -6,7 +6,6 @@ import java.util.Set;
 
 import org.springframework.web.socket.*;
 import org.springframework.web.socket.WebSocketSession;
-import org.springframework.web.socket.handler.AbstractWebSocketHandler;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
 
 public class ChatServer extends TextWebSocketHandler {

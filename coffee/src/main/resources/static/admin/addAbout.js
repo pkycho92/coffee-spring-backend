@@ -46,7 +46,7 @@
             body.image = e.target.result;
             body.description = addDesc.value;
             body.position = document.getElementsByClassName('delete').length;
-            xhr.open("POST", "http://localhost:8080/abouts", true);
+            xhr.open("POST", "/abouts", true);
             xhr.setRequestHeader("Content-Type", "application/json");
             xhr.send(JSON.stringify(body));
         };
@@ -94,7 +94,7 @@
             }
             addListeners();
         };
-        xhr.open("GET", "http://localhost:8080/abouts");
+        xhr.open("GET", "/abouts");
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send();
     }
@@ -105,7 +105,7 @@
         xhr.onload = () => {
             getAbouts();
         }
-        xhr.open("DELETE", "http://localhost:8080/abouts/" + id);
+        xhr.open("DELETE", "/abouts/" + id);
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send();
     }
@@ -166,11 +166,11 @@
                 xhr.onload = function () {
                     let xhr2 = new XMLHttpRequest();
                     xhr2.onload = getAbouts;
-                    xhr2.open("PATCH", "http://localhost:8080/abouts/" + secondId.slice(5));
+                    xhr2.open("PATCH", "/abouts/" + secondId.slice(5));
                     xhr2.setRequestHeader("Content-Type", "application/json");
                     xhr2.send(JSON.stringify(secondObj));
                 }
-                xhr.open("PATCH", "http://localhost:8080/abouts/" + firstId.slice(5));
+                xhr.open("PATCH", "/abouts/" + firstId.slice(5));
                 xhr.setRequestHeader("Content-Type", "application/json");
                 xhr.send(JSON.stringify(firstObj));
             }

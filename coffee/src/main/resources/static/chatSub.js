@@ -20,6 +20,7 @@
     let send = document.getElementById("send");
     let error = document.getElementById("error");
     let isJoined = false;
+    let username;
 
     join.addEventListener("click", (e) => {
         if(textField.value == "") {
@@ -43,10 +44,10 @@
         }
     })
 
-    let wsUri = "ws://localhost:8080/chat"
+    let wsUri = "ws://0.0.0.0:5000/chat"
     let websocket = new WebSocket(wsUri);
 
-    let username;
+
 
     websocket.onmessage = function (e) {
         onMessage(e);

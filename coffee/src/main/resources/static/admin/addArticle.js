@@ -46,7 +46,7 @@
             body.image = e.target.result;
             body.description = addDesc.value;
             body.position = document.getElementsByClassName('delete').length;
-            xhr.open("POST", "http://localhost:8080/articles", true);
+            xhr.open("POST", "/articles", true);
             xhr.setRequestHeader("Content-Type", "application/json");
             xhr.send(JSON.stringify(body));
         };
@@ -94,7 +94,7 @@
             }
             addListeners();
         };
-        xhr.open("GET", "http://localhost:8080/articles");
+        xhr.open("GET", "/articles");
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send();
     }
@@ -105,7 +105,7 @@
         xhr.onload = () => {
             getArticles();
         }
-        xhr.open("DELETE", "http://localhost:8080/articles/" + id);
+        xhr.open("DELETE", "/articles/" + id);
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send();
     }
@@ -166,11 +166,11 @@
                 xhr.onload = function () {
                     let xhr2 = new XMLHttpRequest();
                     xhr2.onload = getArticles;
-                    xhr2.open("PATCH", "http://localhost:8080/articles/" + secondId.slice(7));
+                    xhr2.open("PATCH", "/articles/" + secondId.slice(7));
                     xhr2.setRequestHeader("Content-Type", "application/json");
                     xhr2.send(JSON.stringify(secondObj));
                 }
-                xhr.open("PATCH", "http://localhost:8080/articles/" + firstId.slice(7));
+                xhr.open("PATCH", "/articles/" + firstId.slice(7));
                 xhr.setRequestHeader("Content-Type", "application/json");
                 xhr.send(JSON.stringify(firstObj));
             }

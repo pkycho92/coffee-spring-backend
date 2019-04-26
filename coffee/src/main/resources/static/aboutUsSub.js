@@ -91,7 +91,7 @@
                 getNext(null, abouts.childNodes[0].getElementsByClassName("storeImage")[0]);
             }, 10000);
         };
-        xhr.open("GET", "http://localhost:8080/abouts");
+        xhr.open("GET", "/abouts");
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send();
     }());

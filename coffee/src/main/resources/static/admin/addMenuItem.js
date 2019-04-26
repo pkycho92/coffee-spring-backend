@@ -84,7 +84,7 @@
             body.image = e.target.result;
             body.description = addDesc.value;
             body.position = document.getElementsByClassName('delete').length;
-            xhr.open("POST", "http://localhost:8080/menuItems", true);
+            xhr.open("POST", "/menuItems", true);
             xhr.setRequestHeader("Content-Type", "application/json");
             xhr.send(JSON.stringify(body));
         };
@@ -136,7 +136,7 @@
             }
             addListeners();
         };
-        xhr.open("GET", "http://localhost:8080/menuItems/types/" + menuItemType.textContent.toUpperCase());
+        xhr.open("GET", "/menuItems/types/" + menuItemType.textContent.toUpperCase());
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send();
     }
@@ -147,7 +147,7 @@
         xhr.onload = () => {
             getMenuItems();
         }
-        xhr.open("DELETE", "http://localhost:8080/menuItems/" + id);
+        xhr.open("DELETE", "/menuItems/" + id);
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send();
     }
@@ -208,11 +208,11 @@
                 xhr.onload = function () {
                     let xhr2 = new XMLHttpRequest();
                     xhr2.onload = getMenuItems;
-                    xhr2.open("PATCH", "http://localhost:8080/menuItems/" + secondId.slice(8));
+                    xhr2.open("PATCH", "/menuItems/" + secondId.slice(8));
                     xhr2.setRequestHeader("Content-Type", "application/json");
                     xhr2.send(JSON.stringify(secondObj));
                 }
-                xhr.open("PATCH", "http://localhost:8080/menuItems/" + firstId.slice(8));
+                xhr.open("PATCH", "/menuItems/" + firstId.slice(8));
                 xhr.setRequestHeader("Content-Type", "application/json");
                 xhr.send(JSON.stringify(firstObj));
 

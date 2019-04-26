@@ -31,6 +31,7 @@
             pos -= 1;
         }
         currentType = menuItemsType[pos];
+        menuItemType.textContent = currentType;
         getMenuItems();
     })
 
@@ -53,7 +54,7 @@
             menuItemsJSON = (JSON.parse(xhr.responseText));
             loadMenuItems();
         }
-        xhr.open("GET", "http://localhost:8080/menuItems/types/" + currentType.toUpperCase());
+        xhr.open("GET", "/menuItems/types/" + currentType.toUpperCase());
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send();
     }
