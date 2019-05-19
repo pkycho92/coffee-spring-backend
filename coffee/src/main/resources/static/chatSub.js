@@ -44,7 +44,7 @@
         }
     })
 
-    let wsUri = "ws://0.0.0.0:5000/chat"
+    let wsUri = "ws://34.205.184.226/chat"
     let websocket = new WebSocket(wsUri);
 
 

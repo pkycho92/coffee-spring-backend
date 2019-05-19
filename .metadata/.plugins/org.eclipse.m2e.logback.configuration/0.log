@@ -10304,3 +10304,22 @@ java.io.IOException: Invalid argument
 2019-04-26 14:14:48,550 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
 2019-04-26 14:14:48,579 [Worker-15: Launching coffee (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/petercho/Desktop/Spring Projects/coffee
 2019-04-26 14:14:48,580 [Worker-15: Launching coffee (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-04-26 14:27:18,108 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-26 14:28:32,045 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-26 14:28:32,049 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-26 14:28:32,064 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2019-04-26 14:28:32,081 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-26 14:28:32,081 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-04-26 14:30:20,200 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2019-04-26 14:30:20,275 [Worker-6: Launching coffee (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/petercho/Desktop/Spring Projects/coffee
+2019-04-26 14:30:20,275 [Worker-6: Launching coffee (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-04-26 14:47:52,714 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-26 15:54:54,462 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-26 15:55:11,941 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-26 15:55:11,945 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-26 15:55:11,957 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2019-04-26 15:55:11,965 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-26 15:55:11,965 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-04-26 15:56:06,859 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2019-04-26 15:56:06,888 [Worker-0: Launching coffee (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/petercho/Desktop/Spring Projects/coffee
+2019-04-26 15:56:06,889 [Worker-0: Launching coffee (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
