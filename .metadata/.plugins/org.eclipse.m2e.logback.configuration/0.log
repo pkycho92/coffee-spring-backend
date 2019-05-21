@@ -10323,3 +10323,147 @@ java.io.IOException: Invalid argument
 2019-04-26 15:56:06,859 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
 2019-04-26 15:56:06,888 [Worker-0: Launching coffee (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/petercho/Desktop/Spring Projects/coffee
 2019-04-26 15:56:06,889 [Worker-0: Launching coffee (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2019-05-20 14:16:15,675 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-05-20 14:16:19,054 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-20 14:16:19,059 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-20 14:16:19,072 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2019-05-20 14:16:19,094 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-20 14:16:19,094 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-20 14:34:15,385 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-20 14:34:15,389 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-20 14:34:15,389 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-20 14:34:15,391 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-20 14:34:15,391 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-20 16:50:21,291 [Worker-12: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-20 16:50:21,295 [Worker-12: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-20 16:50:21,297 [Worker-12: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2019-05-20 16:50:21,301 [Worker-12: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-20 16:50:21,301 [Worker-12: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-20 16:54:31,924 [Worker-7: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-20 16:54:31,924 [Worker-7: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-20 16:54:31,924 [Worker-7: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-20 16:54:31,926 [Worker-7: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-20 16:54:31,926 [Worker-7: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-20 17:10:10,782 [Worker-14: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-20 17:10:10,782 [Worker-14: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-20 17:10:10,782 [Worker-14: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-20 17:10:10,784 [Worker-14: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-20 17:10:10,784 [Worker-14: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-20 23:40:20,963 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-20 23:40:20,963 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-20 23:40:20,963 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-20 23:40:20,965 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-20 23:40:20,965 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 00:58:12,684 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-05-21 00:58:40,925 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 00:58:40,933 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-21 00:58:40,947 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2019-05-21 00:58:40,950 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 00:58:40,950 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 01:00:06,964 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 01:00:06,966 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 01:00:06,966 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 01:00:06,968 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 01:00:06,968 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 13:37:45,539 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-05-21 13:44:13,847 [Worker-5: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 13:44:13,852 [Worker-5: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-21 13:44:13,868 [Worker-5: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2019-05-21 13:44:13,872 [Worker-5: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 13:44:13,872 [Worker-5: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 13:44:24,855 [Worker-14: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 13:44:24,856 [Worker-14: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 13:44:24,856 [Worker-14: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 13:44:24,858 [Worker-14: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 13:44:24,858 [Worker-14: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:02:14,731 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-05-21 14:04:44,011 [Worker-3: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:04:44,016 [Worker-3: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-21 14:04:44,028 [Worker-3: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2019-05-21 14:04:44,031 [Worker-3: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:04:44,031 [Worker-3: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:05:19,399 [Worker-5: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:05:19,400 [Worker-5: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:05:19,400 [Worker-5: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:05:19,402 [Worker-5: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:05:19,403 [Worker-5: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:05:37,353 [Worker-6: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:05:37,353 [Worker-6: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:05:37,353 [Worker-6: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:05:37,355 [Worker-6: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:05:37,355 [Worker-6: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:13:59,322 [Worker-2: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:13:59,322 [Worker-2: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:13:59,322 [Worker-2: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:13:59,324 [Worker-2: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:13:59,324 [Worker-2: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:15:02,754 [Worker-3: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:15:02,755 [Worker-3: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:15:02,755 [Worker-3: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:15:02,761 [Worker-3: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:15:02,761 [Worker-3: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:26:03,354 [Worker-2: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:26:03,355 [Worker-2: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:26:03,355 [Worker-2: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:26:03,356 [Worker-2: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:26:03,357 [Worker-2: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:27:05,166 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:27:05,167 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:27:05,167 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:27:05,169 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:27:05,169 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:32:32,199 [Worker-5: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:32:32,199 [Worker-5: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:32:32,199 [Worker-5: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:32:32,203 [Worker-5: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:32:32,203 [Worker-5: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:34:10,037 [Worker-3: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:34:10,037 [Worker-3: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:34:10,037 [Worker-3: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:34:10,039 [Worker-3: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:34:10,039 [Worker-3: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:35:24,848 [Worker-2: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:35:24,849 [Worker-2: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:35:24,849 [Worker-2: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:35:24,851 [Worker-2: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:35:24,852 [Worker-2: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:35:52,451 [Worker-3: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:35:52,452 [Worker-3: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:35:52,452 [Worker-3: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:35:52,453 [Worker-3: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:35:52,453 [Worker-3: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:36:57,595 [Worker-7: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:36:57,595 [Worker-7: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:36:57,595 [Worker-7: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:36:57,597 [Worker-7: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:36:57,597 [Worker-7: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:39:04,455 [Worker-8: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:39:04,455 [Worker-8: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:39:04,455 [Worker-8: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:39:04,456 [Worker-8: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:39:04,457 [Worker-8: Launching Rerun coffee.AboutControllerTest.getAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:47:33,779 [Worker-5: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:47:33,779 [Worker-5: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:47:33,779 [Worker-5: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:47:33,780 [Worker-5: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:47:33,781 [Worker-5: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:59:32,302 [Worker-8: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:59:32,302 [Worker-8: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:59:32,302 [Worker-8: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:59:32,304 [Worker-8: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:59:32,304 [Worker-8: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 14:59:59,825 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:59:59,825 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:59:59,825 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 14:59:59,827 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 14:59:59,827 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 15:26:47,804 [Worker-4: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 15:26:47,804 [Worker-4: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 15:26:47,804 [Worker-4: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 15:26:47,806 [Worker-4: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 15:26:47,806 [Worker-4: Launching AboutControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
+2019-05-21 15:29:23,254 [Worker-3: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 15:29:23,255 [Worker-3: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 15:29:23,255 [Worker-3: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-21 15:29:23,256 [Worker-3: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-21 15:29:23,256 [Worker-3: Launching Rerun coffee.AboutControllerTest.postAbouts] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/petercho/Desktop/Spring Projects/coffee/src/test/resources
