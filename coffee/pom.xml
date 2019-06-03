@@ -110,7 +110,7 @@
 	<configuration>
         <!--  <dockerHost>http://127.0.0.1:2375</dockerHost> -->        
         <!--  this is for Mac and Amazon Linux -->
-        <dockerHost>unix:///var/run/docker.sock</dockerHost>
+        <!--<dockerHost>unix:///var/run/docker.sock</dockerHost>-->
 
         <verbose>true</verbose>
         
