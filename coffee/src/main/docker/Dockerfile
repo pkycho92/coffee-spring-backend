@@ -6,6 +6,6 @@ EXPOSE 8080
 
 WORKDIR /usr/local/bin/
 
-COPY maven/coffee-0.0.1-SNAPSHOT.jar webapp.jar
+COPY maven/coffee-2.0.6.RELEASE.jar webapp.jar
 
 CMD ["java","run","-jar","webapp.jar"]
