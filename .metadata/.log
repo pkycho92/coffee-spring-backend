@@ -9133,3 +9133,118 @@ java.lang.Exception: Resource already exists on disk: '/coffee/target/classes/.D
 
 !ENTRY org.eclipse.ui 2 2 2019-06-16 00:03:40.035
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:51:37.996
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fbjvtYOO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:51:37.997
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.fbjvtYOO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:51:37.997
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:51:37.997
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fbjvtYOO => OK
+!SESSION 2019-06-16 00:57:36.480 -----------------------------------------------
+eclipse.buildId=4.2.2.201905232009-RELEASE
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/petercho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-06-16 00:58:56.893
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-16 00:58:56.938
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-06-16 00:58:57.636
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-16 00:58:57.636
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59043741,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31940d6b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:14.644
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:14.645
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7ce58c1c[org.springframework.tooling.boot.ls:1.7.0.201905231938(id=909)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:14.647
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:14.685
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.116
+!MESSAGE Boot LS startup time from start to initialized: 6462ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.136
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uKYiRsav
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.136
+!MESSAGE subscribing to classpath changes: sts4.classpath.uKYiRsav
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.137
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.138
+!MESSAGE subsribers = [sts4.classpath.uKYiRsav]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.138
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.146
+!MESSAGE project coffee ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.147
+!MESSAGE Preparing classpath changed notification coffee
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.148
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.148
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.148
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uKYiRsav => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.152
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.153
+!MESSAGE executing callback sts4.classpath.uKYiRsav coffee false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 00:59:21.179
+!MESSAGE executing callback sts4.classpath.uKYiRsav SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-06-16 00:59:26.538
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 01:01:05.165
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uKYiRsav
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 01:01:05.166
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.uKYiRsav
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 01:01:05.166
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-16 01:01:05.167
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uKYiRsav => OK
