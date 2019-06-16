@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="-444" key="DIALOG_X_ORIGIN"/>
-		<item value="280" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_X_ORIGIN" value="-444"/>
+		<item key="DIALOG_Y_ORIGIN" value="280"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="675" key="dialogHeight"/>
-		<item value="1200" key="dialogWidth"/>
+		<item key="dialogHeight" value="675"/>
+		<item key="dialogWidth" value="1200"/>
 		<list key="textEntries">
 			<item value="1"/>
 		</list>
@@ -23,14 +23,14 @@
 	<section name="NewWizardAction">
 	</section>
 	<section name="InstallationDialogSettings">
-		<item value="702" key="DIALOG_WIDTH"/>
-		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
-		<item value="651" key="DIALOG_HEIGHT"/>
-		<item value="-144" key="DIALOG_X_ORIGIN"/>
-		<item value="-311" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="702"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="651"/>
+		<item key="DIALOG_X_ORIGIN" value="-144"/>
+		<item key="DIALOG_Y_ORIGIN" value="-311"/>
 	</section>
 	<section name="ImportExportAction">
-		<item value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard"/>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.jdt.ui.Java"/>
 		</list>
