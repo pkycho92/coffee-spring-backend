@@ -44,7 +44,7 @@
         }
     })
 
-    let wsUri = 'ws://springcoffee-env.cegzvizdkz.us-east-1.elasticbeanstalk.com/chat';
+    let wsUri = "ws://springcoffee-env.cegzvizdkz.us-east-1.elasticbeanstalk.com/chat"
     let websocket = new WebSocket(wsUri);
 
 
